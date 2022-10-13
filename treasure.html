@@ -190,10 +190,10 @@
                 if(position == treasureLocation) {
                     image.src = "treasure.jpg"
                 } else {
-                    image.src = "treasure_box.jpg"
+                    image.src = "emptychest.jpg"
                 }
                 chestCount += 1
-                score += 1 // to change
+                score += 1 
                 document.getElementById("chests").innerHTML = "Number of chests checked is " +         chestCount;
                 document.getElementById("score").innerHTML = "Score is " + score
                 lastCheck = position;
