@@ -188,9 +188,9 @@
             function check(position) {
                 image = document.getElementById(ids[position])
                 if(position == treasureLocation) {
-                    image.src = "treasure_box.jpg"
-                } else {
                     image.src = "treasure.jpg"
+                } else {
+                    image.src = "emptychest.jpg"
                 }
                 chestCount += 1
                 score += 1 
